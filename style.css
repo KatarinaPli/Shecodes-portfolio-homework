@@ -41,6 +41,15 @@ p {
 .navigation-links a {
   margin: 20px;
 }
+.primary-mane-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
 
 .primary-link {
   border-radius: 4px;
@@ -87,4 +96,36 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 37px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  img {
+    display: none;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .primary-link {
+    padding: 10px 20px;
+    margin-bottom: 0 auto;
+  }
+ p{
+    text-align: center;
+ }
+ h2{
+    text-align: center;
+    margin-top: 25px;
+ }
+ .primary-mane-link{
+    padding: 7px 25px ;
+    margin-right: 0;
+ }
+ .secondary-link{padding: 7px 25px ;
+margin-left: 0;}
 }
